@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img class="logo__img" draggable="none" src="./assets/logo.svg" alt="">
+            <h1 class="logo__name">MailClicker</h1>
+        </div>
+        <div class="nav__contents">
+            <a class="nav__content" href="">Home</a>
+            <a class="nav__content" href="">About us</a>
+            <a class="nav__content" href="">Contact</a>
+            <button class="nav__button">Download now</button>
+        </div>
+        <div class="burger-menu">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+        </div>
+    </nav>
+    <div class="burger-menu__contents">
+        <a class="burger-menu__content" href="">Home</a>
+        <a class="burger-menu__content" href="">About us</a>
+        <a class="burger-menu__content" href="">Contact</a>
+        <button class="burger-menu__button">Download now</button>
+    </div>
+    <header>
+        <div class="header__contents">
+            <p class="header__text">By MMI</p>
+            <h2 class="header__title">MailClicker</h2>
+            <p class="header__desc">Welcome to Mail Clicker, the frantic clicking game where your goal is to clear your inbox of unwanted emails!</p>
+        </div>
+        <img draggable="none" class="header__img" src="./assets/logo.svg" alt="">
+    </header>
+    <section class="info">
+        <p class="info__text">
+            Your inbox is overflowing with spam, useless newsletters, and malicious emails. Your mission? Click to delete them, unlock automated tools, and become a master of digital organization!
+        </p>
+        <img class="info__img" src="./assets/game-interface.png" alt="">
+        <div class="info__features">
+            <div class="info__feature">
+                <h3 class="info__feature__title">An addictive game!</h3>
+                <p class="info__feature__desc">Earn clicks to unlock upgrades and boosts.</p>
+            </div>
+            <div class="info__feature">
+                <h3 class="info__feature__title">Constant progression!</h3>
+                <p class="info__feature__desc">Optimize your cleaning with increasingly powerful tools!</p>
+            </div>
+        </div>
+    </section>
+    <section class="stats">
+        <div class="stat">
+            <h4 class="stat__title">8+</h4>
+            <p class="stat__desc">For all ages, young and old.</p>
+        </div>
+        <div class="stat">
+            <h4 class="stat__title">17M</h4>
+            <p class="stat__desc">From online download.</p>
+        </div>
+        <div class="stat">
+            <h4 class="stat__title">+95%</h4>
+            <p class="stat__desc">Revenue donated to a charity.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__contents">
+            <img class="footer__img" src="./assets/logo.svg" alt="">
+            <p class="footer__contents__text">Our vision is to provide convenience and help increase your sales business.</p>
+            <div class="footer__contents__medias">
+                <img class="footer__contents__media" src="./assets/Facebook.svg" alt="">
+                <img class="footer__contents__media" src="./assets/Twitter.svg" alt="">
+                <img class="footer__contents__media" src="./assets/Instagram.svg" alt="">
+            </div>
+        </div>
+        <div class="footer__infos-container">
+        <div class="footer__infos">
+            <h4 class="footer_infos__title">About</h4>
+            <p class="footer__info">How it works</p>
+            <p class="footer__info">Featured</p>
+            <p class="footer__info">Partnership</p>
+            <p class="footer__info">Bussiness Relation</p>
+        </div>
+        <div class="footer__infos">
+            <h4 class="footer_infos__title">Community</h4>
+            <p class="footer__info">Events</p>
+            <p class="footer__info">Blog</p>
+            <p class="footer__info">Podcast</p>
+            <p class="footer__info">Invite a friend</p>
+        </div>
+        <div class="footer__infos">
+            <h4 class="footer_infos__title">Socials</h4>
+            <p class="footer__info">Discord</p>
+            <p class="footer__info">Instagram</p>
+            <p class="footer__info">Twitter</p>
+            <p class="footer__info">Facebook</p>
+        </div>
+    </div>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const burgerMenu = document.querySelector('.burger-menu');
+        const burgerMenuContents = document.querySelector('.burger-menu__contents');
+
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('active');
+            burgerMenuContents.classList.toggle('active');
+        });
+    });
+</script>
+</body>
+</html>
