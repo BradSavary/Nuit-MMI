@@ -4,6 +4,7 @@ Un **jeu clicker** (type *Cookie Clicker*) et sa landing page, sur le thème de 
 
 Créé en **moins de 24 heures** lors de la Nuit MMI 2025 (IUT du Limousin) en équipe de 3.
 (Le jeu comporte donc des anomalies et n'est pas terminé)
+
 ---
 
 ## 🎮 Le jeu
